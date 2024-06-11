@@ -11,6 +11,8 @@ git clone "https://github.com/deadPupsich/snort-2.9.20-FIX-2024"
 unpack daq-2.0.7
 ```bash
 tar -xvzf 'snort-2.9.20-FIX-2024/daq-2.0.7.tar.gz'
+./configure
+sudo make install
 ```
 then unpack snort fix
 ```bash
