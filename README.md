@@ -8,8 +8,15 @@ If you've also encountered errors while installing this version of Snort on Kali
 ```bash
 git clone "https://github.com/deadPupsich/snort-2.9.20-FIX-2024"
 ```
+unpack daq-2.0.7
 ```bash
-tar -xvzf 'snort-2.9.20-FIX-2024/snort-2.9.20[FIX 2024].tar.gz'
+tar -xvzf 'snort-2.9.20-FIX-2024/daq-2.0.7.tar.gz'
+```
+then unpack snort fix
+```bash
+tar -xvzf 'snort-2.9.20-FIX-2024/snort-2.9.20-FIX-2024.tar.gz'
+```
+```bash
 chmod +x ./install_script.sh
 chmod +x ./configure
 ./install_script.sh
