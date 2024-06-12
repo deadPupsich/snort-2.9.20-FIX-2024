@@ -25,3 +25,4 @@ These steps should help you get Snort up and running without any issues.
 ```bash
 sudo snort
 ```
+If you have any issues contact me in telegram @ogpupsich
